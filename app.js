@@ -16,10 +16,10 @@ var Order = require('./models/order');
 var userRouter = require('./controllers/user-controller');
 app.use('/users', userRouter);
 //might need to do the other routes
-var productRouter = require('./controllers/product-controller');
-app.use('/users', productRouter);
-var orderRouter = require('./controllers/order-controller');
-app.use('/users', orderRouter);
+// var productRouter = require('./controllers/product-controller');
+// app.use('/products', productRouter);
+// var orderRouter = require('./controllers/order-controller');
+// app.use('/users', orderRouter);
 
 
 //root route
